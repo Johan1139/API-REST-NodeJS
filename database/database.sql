@@ -1,0 +1,11 @@
+CREATE DATABASE prueba;
+
+CREATE TABLE empresa(
+	idempresa VARCHAR(20) PRIMARY KEY NOT NULL,
+	empnombre VARCHAR(40) NOT NULL UNIQUE,
+	empdescripcion TEXT,
+	telefono VARCHAR(15)
+);
+
+INSERT INTO empresa 
+VALUES('1111-1','BELISARIO S.A.S','BUENO, BONITO, BARATO','+57 3201321331');
